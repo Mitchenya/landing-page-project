@@ -83,9 +83,10 @@ a {
   align-items: center;
   background-color: #3882f6;
   color: #f9faf8;
-  width: 100px;
+  width: 140px;
+  padding: 2px;
   border-radius: 8px;
-  outline-color: #f9faf8;
+  border: 2px solid white;
 }
 
 /* Main */
@@ -167,6 +168,15 @@ a {
 .action {
   display: flex;
   flex-wrap: wrap;
-  border: solid 2px red;
+  color: #f9faf8;
+}
+
+footer {
+  display: flex;
+  padding: 2em;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
   color: #f9faf8;
 }
