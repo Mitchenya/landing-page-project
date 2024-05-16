@@ -125,3 +125,23 @@ a {
   height: 160px;
   width: 160px;
 }
+
+/* Quote */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+  background-color: #e5e7eb;
+  font-size: 28px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.quote p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+}
