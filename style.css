@@ -27,8 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 1em 6em;
 }
 
 .nav ul {
@@ -46,9 +45,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em 10em;
-  border: 2px red solid;
-  gap: 1em 13em;
+  padding: 4em 12em;
+  gap: 2em 12em;
 }
 
 .welcome .left {
@@ -59,14 +57,30 @@ a {
 .welcome .right {
   flex-shrink: 0;
   width: 50%;
+  background-color: grey;
 }
 
 .awesome {
   display: flex;
-  flex: 1;
-  border: 2px red solid;
   font-size: 34px;
   font-weight: 800px;
   width: 300px;
   color: #f9faf8;
+  margin-bottom: 4px;
+}
+
+.subtext {
+  color: #e5e7eb;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100px;
+  border-radius: 8px;
 }
